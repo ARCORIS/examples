@@ -1,0 +1,12 @@
+name: Example Validation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  example-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder validation step
+        run: echo "Example validation workflow scaffold is in place."

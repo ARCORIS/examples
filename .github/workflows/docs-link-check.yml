@@ -1,0 +1,12 @@
+name: Docs Link Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  docs-link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder link check step
+        run: echo "Link checker workflow scaffold is in place."

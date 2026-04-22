@@ -1,0 +1,32 @@
+site_name: ARCORIS Examples
+site_description: Documentation scaffold for ARCORIS runnable examples.
+docs_dir: docs
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md
+  - Overview:
+      - Mission and Scope: overview/examples-mission-and-scope.md
+      - Repository Map: overview/repository-map.md
+      - Example Types: overview/example-types.md
+      - Support and Stability Levels: overview/support-and-stability-levels.md
+      - Example Boundaries: overview/example-boundaries.md
+  - Catalog:
+      - All Examples: catalog/all-examples.md
+      - Local Development: catalog/local-development.md
+      - Cluster Scenarios: catalog/cluster-scenarios.md
+      - Adapter Examples: catalog/adapter-examples.md
+      - Observability Examples: catalog/observability-examples.md
+      - Security Examples: catalog/security-examples.md
+      - Failure and Chaos Labs: catalog/failure-and-chaos-labs.md
+  - Conventions:
+      - Example Structure Standard: conventions/example-structure-standard.md
+      - Metadata and Labeling: conventions/metadata-and-labeling.md
+      - Validation Requirements: conventions/validation-requirements.md
+      - Portability Guidelines: conventions/portability-guidelines.md
+      - Cleanup and Safety Rules: conventions/cleanup-and-safety-rules.md
+  - Tutorials:
+      - Getting Started with Examples: tutorials/getting-started-with-examples.md
+      - How to Run Local Examples: tutorials/how-to-run-local-examples.md
+      - How to Run Cluster Examples: tutorials/how-to-run-cluster-examples.md
+      - How to Interpret Example Results: tutorials/how-to-interpret-example-results.md
